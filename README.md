@@ -62,3 +62,18 @@ Horst ist freie Software.
 ## Beta-Test
 
 Du möchtest Horst als Beta-Tester testen? Lade dir den Installer herunter und schreib uns eine Nachricht auf GitHub!
+
+## Bekannte Fehler
+
+- **Linux Mint 22:** Ein Bug kann dazu führen, dass Horst das Betriebssystem herunterfährt oder neu startet.
+- **Minimieren-Button:** Der Minimieren-Button in der Electron-Oberfläche funktioniert nicht.
+
+## Einschränkungen
+
+- **Externe Modelle:** Zurzeit sind externe Sprachmodelle nur über OpenRouter verfügbar.
+
+## Tipps
+
+- **Schließen-Button:** Der Schließen-Button schließt Horst nicht vollständig, sondern minimiert ihn in den Task-Manager.
+- **Horst vollständig beenden:** Klicke mit der rechten Maustaste auf das Horst-Icon in der Taskleiste und wähle „Beenden".
+- **Arch Linux:** Horst läuft unter Arch Linux (bzw. CachyOS) am besten.
