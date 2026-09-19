@@ -21,6 +21,8 @@ Horst ist dein persönlicher Linux-Assistent — kostenlos, einfach, auf Deutsch
 
 **Voraussetzungen:** Mindestens ein lokaler KI-Server (entweder llama.cpp oder LM Studio) oder ein Open-Router Account (wird bald erweitert).
 
+**Hinweis:** Der Installer ist aktuell nur für Arch Linux verfügbar. Ubuntu folgt in Kürze.
+
 Entpacke den Installer und führe ihn aus:
 
 ```bash
