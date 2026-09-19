@@ -38,6 +38,8 @@ chmod +x Horst-Installer-0.1.238
 
 ## Nutzung
 
+- **Der Button für Einstellungen und Optionen befindet sich links neben dem Minimieren-Button.**
+
 Horst startet mit einer Electron-Oberfläche. Du stellst Fragen oder gibst Aufgaben — Horst führt sie aus.
 
 **Beispiele:**
@@ -65,7 +67,9 @@ Du möchtest Horst als Beta-Tester testen? Lade dir den Installer herunter und s
 ## Bekannte Fehler
 
 - **Linux Mint 22:** Ein Bug kann dazu führen, dass Horst das Betriebssystem herunterfährt oder neu startet.
-- **Minimieren-Button:** Der Minimieren-Button in der Electron-Oberfläche funktioniert nicht.
+- **Minimieren-Button:** Der Minimieren-Button in der Electron-Oberfläche funktioniert (noch) nicht.
+- **Schließen-Button:** Der Schließen-Button schließt Horst nicht vollständig, sondern minimiert ihn in den Task-Manager.
+- **Liste nicht vollständig, frühe Beta-Version**
 
 ## Einschränkungen
 
@@ -73,6 +77,5 @@ Du möchtest Horst als Beta-Tester testen? Lade dir den Installer herunter und s
 
 ## Tipps
 
-- **Schließen-Button:** Der Schließen-Button schließt Horst nicht vollständig, sondern minimiert ihn in den Task-Manager.
 - **Horst vollständig beenden:** Klicke mit der rechten Maustaste auf das Horst-Icon in der Taskleiste und wähle „Beenden".
 - **Arch Linux:** Horst läuft unter Arch Linux (bzw. CachyOS) am besten.
