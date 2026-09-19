@@ -14,26 +14,29 @@ Horst ist dein persönlicher Linux-Assistent — kostenlos, einfach, auf Deutsch
 
 ## Installation
 
-Horst ist als Skript verfügbar. So installierst du ihn:
+Lade dir den Installer herunter und führe ihn aus:
 
 ```bash
-# Repository klonen
-git clone https://github.com/Huppat/horst.git
-cd horst
+# Installer herunterladen (Beispiel)
+wget https://github.com/Huppat/horst/releases/download/v0.1/horst-installer
 
-# Horst ausführen
-./horst
+# Installer ausführbar machen
+chmod +x horst-installer
+
+# Horst installieren
+./horst-installer
 ```
 
 ## Startoptionen
 
-- `./horst` — Normaler Start mit Eingabeaufforderung
-- `./horst --help` — Alle Optionen anzeigen
-- `./horst --version` — Versionsnummer anzeigen
+- `horst` — Normaler Start mit Electron-Oberfläche
+- `horst --help` — Alle Optionen anzeigen
+- `horst --version` — Versionsnummer anzeigen
+- `horst --debug` — Debug-Modus für Fehleranalyse
 
 ## Nutzung
 
-Horst arbeitet im Terminal. Du stellst Fragen oder gibst Aufgaben — Horst führt sie aus.
+Horst startet mit einer Electron-Oberfläche. Du stellst Fragen oder gibst Aufgaben — Horst führt sie aus.
 
 **Beispiele:**
 - "Installiere Firefox"
@@ -53,4 +56,4 @@ Horst ist freie Software.
 
 ## Beta-Test
 
-Du möchtest Horst als Beta-Tester testen? Schreib uns eine Nachricht oder erstelle ein Issue auf GitHub.
+Du möchtest Horst als Beta-Tester testen? Lade dir den Installer herunter und schreib uns eine Nachricht auf GitHub!
