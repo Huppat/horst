@@ -23,10 +23,10 @@ Entpacke den Installer und führe ihn aus:
 
 ```bash
 # Installer ausführbar machen
-chmod +x Horst-Installer-0.1.238.zip
+chmod +x Horst-Installer-0.1.238
 
 # Horst installieren
-./Horst-Installer-0.1.238.zip
+./Horst-Installer-0.1.238
 ```
 
 ## Startoptionen
