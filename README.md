@@ -19,6 +19,8 @@ Horst ist dein persönlicher Linux-Assistent — kostenlos, einfach, auf Deutsch
 
 **[📥 Horst-Installer 0.1.238 herunterladen (ZIP)](https://github.com/Huppat/horst/releases/download/Agent/Horst-Installer-0.1.238.zip)**
 
+**Voraussetzungen:** Mindestens ein lokaler KI-Server (entweder llama.cpp oder LM Studio) oder ein Open-Router Account (wird bald erweitert).
+
 Entpacke den Installer und führe ihn aus:
 
 ```bash
