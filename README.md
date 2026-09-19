@@ -1,4 +1,4 @@
-# Horst - KI-Assistent für Einsteiger
+# Horst - KI-Assistent für Linux Einsteiger
 
 Horst ist dein persönlicher Linux-Assistent — kostenlos, einfach, auf Deutsch. Er hilft dir bei allen Linux-Themen: Software installieren, Dateien verwalten, System-Einstellungen, Programmieren und mehr.
 
