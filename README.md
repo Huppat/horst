@@ -17,17 +17,16 @@ Horst ist dein persönlicher Linux-Assistent — kostenlos, einfach, auf Deutsch
 
 ## Installation
 
-Lade dir den Installer herunter und führe ihn aus:
+**[📥 Horst-Installer 0.1.238 herunterladen (ZIP)](https://github.com/Huppat/horst/releases/download/Agent/Horst-Installer-0.1.238.zip)**
+
+Entpacke den Installer und führe ihn aus:
 
 ```bash
-# Installer herunterladen (Beispiel)
-wget https://github.com/Huppat/horst/releases/download/v0.1/horst-installer
-
 # Installer ausführbar machen
-chmod +x horst-installer
+chmod +x Horst-Installer-0.1.238.zip
 
 # Horst installieren
-./horst-installer
+./Horst-Installer-0.1.238.zip
 ```
 
 ## Startoptionen
