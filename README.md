@@ -48,6 +48,8 @@ Zum Starten des lokalen KI-Servers (Qwen3.6-35B-A3B) steht ein vorkonfiguriertes
 
 Dieses Skript startet den `llama-server` mit den empfohlenen Parametern für das Qwen3.6-35B-A3B-Modell mit Vision-Erkennung.
 
+**Wichtig:** Bevor du das Skript ausführst, musst du darin den Pfad zu deinem heruntergeladenen Modell und den Pfad zum llama.cpp-Installationsordner anpassen.
+
 ## Nutzung
 
 - **Der Button für Einstellungen und Optionen befindet sich links neben dem Minimieren-Button.**
