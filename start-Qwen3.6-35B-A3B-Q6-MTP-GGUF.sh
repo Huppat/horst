@@ -1,4 +1,4 @@
-/home/hubi/src/llama.cpp/build/bin/llama-server -m /mnt/nvme1/temp/Qwen3.6-35B-A3B-Q6-MTP-GGUF/Qwen3.6-35B-A3B-UD-Q6_K.gguf --mmproj /mnt/nvme1/temp/Qwen3.6-35B-A3B-Q6-MTP-GGUF/mmproj-BF16.gguf \
+/home/user/llama.cpp/build/bin/llama-server -m ./models/Qwen3.6-35B-A3B-Q6-MTP-GGUF/Qwen3.6-35B-A3B-UD-Q6_K.gguf --mmproj ./models/Qwen3.6-35B-A3B-Q6-MTP-GGUF/mmproj-BF16.gguf \
   --port 8080 \
   --host 0.0.0.0 \
   --poll 0 \
@@ -23,9 +23,5 @@
 
 # Kontextgrößen: 32768 65536 81920 102400 122880 143360 159744 163840 204800 225280 262144
 
-#   --mmproj /mnt/C42EA36B2EA354E8/temp/Qwen3.6-35B-A3B-MXFP4_MOE/mmproj-BF16.gguf \
-#   --mmproj /mnt/nvme1/temp/Qwen3.6-35B-A3B-Q6-MTP-GGUF/mmproj-BF16.gguf
 
-# \  --cache-ram 16384
-#   --n-cpu-moe 36 \
-#   --no-mmap
+#   --cache-ram 16384
