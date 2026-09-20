@@ -56,6 +56,30 @@ Dieses Skript startet den `llama-server` mit den empfohlenen Parametern für das
 
 Horst startet mit einer Electron-Oberfläche. Du stellst Fragen oder gibst Aufgaben — Horst führt sie aus.
 
+### Optionen
+
+Klicke auf den Optionen-Button (links neben dem Minimieren-Button), um die Einstellungen zu öffnen. Es gibt zwei Modi:
+
+**Lokales Modell** — Verbinde Horst mit einem lokalen KI-Server (llama.cpp oder LM Studio):
+
+![Lokales Modell — Optionen](bilder/optionen-lokal.png)
+
+- **API-Adresse:** Standardmäßig `http://127.0.0.1:8080` (llama.cpp)
+- **LM Studio:** Läuft standardmäßig auf einem anderen Port. Entweder den Port in LM Studio ändern oder die API-Adresse hier in den Optionen anpassen.
+- **Modell:** Pfad oder Name des geladenen Modells
+- **Temperatur:** Steuert Kreativität vs. Präzision (niedrig = präzise, hoch = kreativ)
+- **Top_P / Top_K:** Beeinflussen, wie breit die KI bei der Wortwahl streut
+- **Verlauf verdichten ab:** Ab welchem Prozentwert des Kontextfensters der Gesprächsverlauf zusammengefasst wird
+- **Anleitungen (Skills):** Eigene Anleitungen als `.md`-Datei in `~/.local/share/horst/skills/` ablegen
+
+**OpenRouter** — Verbinde Horst mit dem OpenRouter-Dienst:
+
+![OpenRouter — Optionen](bilder/optionen-openrouter.png)
+
+- **API-Key:** Einen eigenen OpenRouter API-Key eingeben. Kostenlos gibt es 50 Anfragen/Tag, mit Einzahlung 1000/Tag.
+- **Modelle laden:** Verfügbare Modelle aus OpenRouter auswählen
+- **Hinweis:** Wer keinen Key hat, kann sich hier kostenlos einen holen: [OpenRouter Key holen](https://openrouter.ai/keys)
+
 **Hinweis zur Beta-Phase:** Starte Horst am besten direkt aus dem Ordner, in dem du arbeiten möchtest. So hast du sofort Zugriff auf deine Dateien.
 
 **Optimierung:** Horst ist auf QWEN 3.5 bis 3.8 optimiert. Vision/Bilderkennung funktioniert nur mit zusätzlicher `.mmproj`-Datei.
