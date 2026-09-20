@@ -62,7 +62,7 @@ Klicke auf den Optionen-Button (links neben dem Minimieren-Button), um die Einst
 
 **Lokales Modell** — Verbinde Horst mit einem lokalen KI-Server (llama.cpp oder LM Studio):
 
-![Lokales Modell — Optionen](bilder/optionen-lokal.png)
+![Lokales Modell — Optionen](bilder/optionen-lokal.jpg)
 
 - **API-Adresse:** Standardmäßig `http://127.0.0.1:8080` (llama.cpp)
 - **LM Studio:** Läuft standardmäßig auf einem anderen Port. Entweder den Port in LM Studio ändern oder die API-Adresse hier in den Optionen anpassen.
@@ -74,7 +74,7 @@ Klicke auf den Optionen-Button (links neben dem Minimieren-Button), um die Einst
 
 **OpenRouter** — Verbinde Horst mit dem OpenRouter-Dienst:
 
-![OpenRouter — Optionen](bilder/optionen-openrouter.png)
+![OpenRouter — Optionen](bilder/optionen-openrouter.jpg)
 
 - **API-Key:** Einen eigenen OpenRouter API-Key eingeben. Kostenlos gibt es 50 Anfragen/Tag, mit Einzahlung 1000/Tag.
 - **Modelle laden:** Verfügbare Modelle aus OpenRouter auswählen
