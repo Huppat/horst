@@ -35,16 +35,34 @@ chmod +x Horst-Installer-0.1.238
 
 ## Startoptionen
 
-- `horst` — Normaler Start mit Electron-Oberfläche
-- `horst --help` — Alle Optionen anzeigen
-- `horst --version` — Versionsnummer anzeigen
-- `horst --debug` — Debug-Modus für Fehleranalyse
+- `horsti` — Normaler Start mit Electron-Oberfläche
+- `horsti --help` — Alle Optionen anzeigen
+- `horsti --version` — Versionsnummer anzeigen
+- `horsti --debug` — Debug-Modus für Fehleranalyse
+
+## Modell-Start-Skript
+
+Zum Starten des lokalen KI-Servers (Qwen3.6-35B-A3B) steht ein vorkonfiguriertes Skript zur Verfügung:
+
+**[📄 start-Qwen3.6-35B-A3B-Q6-MTP-GGUF.sh](https://github.com/Huppat/horst/blob/master/start-Qwen3.6-35B-A3B-Q6-MTP-GGUF.sh)**
+
+Dieses Skript startet den `llama-server` mit den empfohlenen Parametern für das Qwen3.6-35B-A3B-Modell mit Vision-Erkennung.
 
 ## Nutzung
 
 - **Der Button für Einstellungen und Optionen befindet sich links neben dem Minimieren-Button.**
 
 Horst startet mit einer Electron-Oberfläche. Du stellst Fragen oder gibst Aufgaben — Horst führt sie aus.
+
+**Hinweis zur Beta-Phase:** Starte Horst am besten direkt aus dem Ordner, in dem du arbeiten möchtest. So hast du sofort Zugriff auf deine Dateien.
+
+**Optimierung:** Horst ist auf QWEN 3.5 bis 3.8 optimiert. Vision/Bilderkennung funktioniert nur mit zusätzlicher `.mmproj`-Datei.
+
+**Empfohlenes Modell (mit Vision):**
+- [Qwen3.6-35B-A3B-UD-Q6_K.gguf](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/blob/main/Qwen3.6-35B-A3B-UD-Q6_K.gguf)
+- [mmproj-BF16.gguf](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/blob/main/mmproj-BF16.gguf)
+
+Dieses Modell, inklusive Vision, läuft auf einer 12 GB Nvidia RTX 4070 Super mit ca. 45 Tokens pro Sekunde.
 
 **Beispiele:**
 - "Mein Update ist abgebrochen, reparier das"
@@ -56,7 +74,7 @@ Horst startet mit einer Electron-Oberfläche. Du stellst Fragen oder gibst Aufga
 
 ## Spenden
 
-Horst ist kostenlos und Open Source. Wenn du Horst unterstützen möchtest, kannst du gerne spenden:
+Horst ist zwar grundsätzlich kostenlos, aber nicht Open Source. Wenn du die Weiterentwicklung und schnelle Bereitstellung neuer Funktionen unterstützen möchtest, kannst du gerne spenden.
 
 [**Spenden via PayPal**](https://paypal.me/huppat)
 
@@ -66,7 +84,7 @@ Horst ist freie Software.
 
 ## Beta-Test
 
-Du möchtest Horst als Beta-Tester testen? Lade dir den Installer herunter und schreib uns eine Nachricht auf GitHub!
+Du möchtest Horst als Beta-Tester testen? Lade dir den Installer herunter und schreib uns eine Nachricht auf GitHub.
 
 ## Bekannte Fehler
 
